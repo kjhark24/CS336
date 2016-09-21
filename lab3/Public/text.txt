@@ -1,0 +1,8 @@
+1. Node. js is a javascript runtime enviroment used for developing. Its can be used for the creation of webservers and networking tools.
+Express is a Node.js application framework and provides tools and features for web and mobile applications.
+
+2. The package.json file contains the settings for the js file being made. Most importantly it holds the name and version fields of the project which are required for the express package to install
+
+3.The files are considered static as the directories are set before runtime and cannot be changed during it.
+
+4. It does serve the hello world message as long as one is not loading a static file. It doesnt display when loading the static file because youre not accessing the root where the hello world message is suppose to show.
