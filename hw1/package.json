@@ -1,0 +1,14 @@
+{
+  "name": "hw1",
+  "version": "1.0.0",
+  "description": "Homework 1 for cs 336",
+  "main": "hw1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Harkema",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
