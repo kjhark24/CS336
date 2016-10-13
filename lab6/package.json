@@ -1,0 +1,16 @@
+{
+  "name": "lab6",
+  "version": "1.0.0",
+  "description": "Lab 6 for cs336",
+  "main": "lab6.js",
+  "scripts": {
+    "start": "node lab6.js",
+    "stop": "kill $(pgrep node)"
+  },
+  "author": "Kyle Harkema",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
