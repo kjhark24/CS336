@@ -1,0 +1,16 @@
+{
+  "name": "lab7",
+  "version": "0.0.0",
+  "description": "Lab 7 for cs336 at calvin college",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Kyle Harkema",
+  "license": "BSD-2-Clause"
+}
