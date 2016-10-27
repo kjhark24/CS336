@@ -1,0 +1,22 @@
+a.i. UI is made of a bunch of different and reusable parts that can be put pretty much anywhere in the app.  
+This makes it easy to make bigger applications and scales pretty well.
+
+ii. JSX is a compiler that takes xml like syntax used in react and  changes it to javascript in the actual program.
+It makes generating html elements easier when using JS.
+
+iii. Comments loads with  loadCommentsFromServer using ajax. They're created using  the comment  box  and 
+are save by writing to comments.js.
+
+iv. All components  have props and states. Props are properties and are immutable. The state however can be changed
+and is what carries the data of the component. When the state is changed the component changes to reflect it.
+
+B.i. The webpage updates and shows the new comment. It is polling the server very frequently to check the comment data
+and updates it when their are changes.
+
+ii. Components automatically re-render when their state has changed. Calling the render function would be pointless.
+
+iii. Components should always represent the view because the data read will always give an accurate depiction of the 
+state of the page. This lets operations and changes to data result in the correct behavior.
+
+iv. We assume our technology is good and that comment will work. We post the comment immeaditly so the webpage feels fast
+like a native app. If the comment isn't accepted then when the app next pulls from the server the comment will be deleted 
