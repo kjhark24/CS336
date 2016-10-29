@@ -1,0 +1,17 @@
+{
+  "name": "HW2",
+  "version": "1.0.0",
+  "description": "homework 2 for cs 336 at calvin college",
+  "main": "hw2.js",
+  "scripts": {
+    "start": "kill $(pgrep node); nodemon --ignore public/ HW2.js &",
+    "stop": "kill $(pgrep node)"
+  },
+  "author": "Kyle Harkema",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.14.0"
+    "body-parser": "^1.15.2",
+  },
+  "devDependencies": {"nodemon": "^1.11.0"}
+}
