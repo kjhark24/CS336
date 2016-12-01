@@ -6,6 +6,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Remarkable from 'remarkable';
 import { Router, Route, Redirect, browserHistory } from 'react-router';
 
 import CommentBox from './commentBox.js';

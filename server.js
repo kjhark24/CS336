@@ -26,7 +26,7 @@ app.use('/', express.static(APP_PATH));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
-MongoClient.connect('mongodb://cs336:bjarne@ds053216.mlab.com:53216/cs336', function (err, dbConnection) {
+MongoClient.connect('mongodb://cs336:' + process.env.MONGO_PASSWORD + '@ds053216.mlab.com:53216/cs336', function (err, dbConnection) {
   if (err) throw err;
   db = dbConnection;
 });
